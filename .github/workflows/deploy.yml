@@ -1,0 +1,190 @@
+name: Deploy ULTIMATE CYBER-WIZARD to GitHub Pages
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+        
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.2'
+          
+      - name: Build Professional Dashboard
+        run: |
+          echo "🚀 Building ULTIMATE CYBER-WIZARD Dashboard"
+          echo "Company: ULTIMATE CYBER-TECH LTD"
+          echo "Address: 225 S Olive St, Los Angeles, CA 90012"
+          echo "Support: 247assist@mail.com"
+          echo "Phone: +1 310 6018 952"
+          
+          # Create build directory
+          mkdir -p _site
+          
+          # Copy essential files
+          cp -r public/* _site/ 2>/dev/null || true
+          cp dashboard.php _site/index.php
+          cp README.md _site/
+          cp LICENSE _site/
+          
+          # Create company information page
+          cat > _site/company.html << 'EOF'
+          <!DOCTYPE html>
+          <html lang="en">
+          <head>
+              <meta charset="UTF-8">
+              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <title>ULTIMATE CYBER-TECH LTD</title>
+              <style>
+                  body {
+                      font-family: 'Segoe UI', system-ui, sans-serif;
+                      background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+                      color: white;
+                      margin: 0;
+                      padding: 40px;
+                      min-height: 100vh;
+                  }
+                  .container {
+                      max-width: 1000px;
+                      margin: 0 auto;
+                      background: rgba(255,255,255,0.05);
+                      padding: 40px;
+                      border-radius: 20px;
+                      border: 1px solid rgba(255,255,255,0.1);
+                  }
+                  .company-name {
+                      font-size: 3rem;
+                      background: linear-gradient(90deg, #0066cc 0%, #00a3e0 100%);
+                      -webkit-background-clip: text;
+                      -webkit-text-fill-color: transparent;
+                      margin-bottom: 20px;
+                  }
+                  .contact-grid {
+                      display: grid;
+                      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+                      gap: 20px;
+                      margin: 40px 0;
+                  }
+                  .contact-card {
+                      background: rgba(255,255,255,0.1);
+                      padding: 25px;
+                      border-radius: 12px;
+                      border: 1px solid rgba(255,255,255,0.2);
+                  }
+                  .contact-icon {
+                      font-size: 2rem;
+                      color: #0066cc;
+                      margin-bottom: 15px;
+                  }
+              </style>
+          </head>
+          <body>
+              <div class="container">
+                  <h1 class="company-name">ULTIMATE CYBER-TECH LTD</h1>
+                  <p>Professional Network Management & Payment Processing Solutions</p>
+                  
+                  <div class="contact-grid">
+                      <div class="contact-card">
+                          <div class="contact-icon">🏢</div>
+                          <h3>Corporate Office</h3>
+                          <p>225 S Olive St<br>Los Angeles, CA 90012<br>United States</p>
+                      </div>
+                      <div class="contact-card">
+                          <div class="contact-icon">📧</div>
+                          <h3>Email Support</h3>
+                          <p>247assist@mail.com<br>247assist@consultant.com<br>247assist@fastservice.com</p>
+                      </div>
+                      <div class="contact-card">
+                          <div class="contact-icon">📱</div>
+                          <h3>Phone Support</h3>
+                          <p>+1 310 6018 952 (USA)<br>+44 7862 126859 (UK)<br>24/7 Emergency Support</p>
+                      </div>
+                      <div class="contact-card">
+                          <div class="contact-icon">🚀</div>
+                          <h3>GitHub</h3>
+                          <p>@ultimatecyber-wizard<br>https://github.com/ultimatecyber-wizard</p>
+                      </div>
+                  </div>
+                  
+                  <div style="text-align: center; margin-top: 40px; color: #94a3b8;">
+                      <p>© 2024 ULTIMATE CYBER-TECH LTD. All Rights Reserved.</p>
+                      <p>Proprietary Software - Licensed Use Only</p>
+                  </div>
+              </div>
+          </body>
+          </html>
+          EOF
+          
+          # Create documentation page
+          cat > _site/documentation.html << 'EOF'
+          <!DOCTYPE html>
+          <html lang="en">
+          <head>
+              <meta charset="UTF-8">
+              <title>Documentation - ULTIMATE CYBER-WIZARD</title>
+              <style>
+                  body { font-family: system-ui; padding: 40px; }
+                  .doc-container { max-width: 800px; margin: 0 auto; }
+                  .company-banner { 
+                      background: linear-gradient(90deg, #0066cc 0%, #003d99 100%);
+                      color: white; padding: 20px; border-radius: 10px; margin-bottom: 30px;
+                  }
+              </style>
+          </head>
+          <body>
+              <div class="doc-container">
+                  <div class="company-banner">
+                      <h1>ULTIMATE CYBER-WIZARD Documentation</h1>
+                      <p>ULTIMATE CYBER-TECH LTD | 225 S Olive St, Los Angeles, CA 90012</p>
+                  </div>
+                  <h2>📚 API Documentation</h2>
+                  <p>Complete API reference available for integration.</p>
+                  
+                  <h2>🔧 Installation Guide</h2>
+                  <pre><code>docker-compose up -d</code></pre>
+                  
+                  <h2>📞 Support</h2>
+                  <p>Contact: 247assist@mail.com | +1 310 6018 952</p>
+              </div>
+          </body>
+          </html>
+          EOF
+          
+          echo "✅ Build completed successfully"
+          
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '_site'
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
