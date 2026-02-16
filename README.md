@@ -6,11 +6,11 @@
 ![Company](https://img.shields.io/badge/Company-ULTIMATE%20CYBER--TECH%20LTD-red)
 ![Version](https://img.shields.io/badge/Version-2.4.0-green)
 
- **Enterprise Payment Processing & Network Management System**
+> **Enterprise Payment Processing & Network Management System**
 
 **ULTIMATE CYBER-WIZARD** is a comprehensive solution designed for secure payment processing and efficient network management. Developed by **ULTIMATE CYBER-TECH LTD**, this system delivers innovation, reliability, and performance aligned with our corporate mission.
 
-<p align="justify">
+<p align="center">
   <em>"..!Your Job..!..We Build..!.."</em>
 </p>
 
@@ -32,23 +32,24 @@
 | :--- | :--- |
 | **Company** | ULTIMATE CYBER-TECH LTD |
 | **Headquarters** | 225 S Olive St, Los Angeles, CA 90012, USA |
-| **Repository** | [@ultimatecyber-wizard](https://github.com/ultimatecyber-wizard/ultimatecyber-wizard.git) |
+| **Repository** | [@ultimatecyber-wizard](https://github.com/ultimatecyber-wizard) |
 
 >### **Contact Support**
 
 | **Department** | **Contact Method** |
 | :--- | :--- |
-| **Primary Inquiry** | [Ultimate Cyber-Tech](mailto:ultimatecybertechsol@gmail.com) |
-| **24/7 Support** | [ultimatecyber-wizard](mailto:247assist@mail.com) |
-| **Consultancy** | [ultimatecyber-wizard](mailto:247assist@consultant.com) |
-| **Fast Service** | [`ultimatecyber-wizard`.](mailto:247assist@fastservice.com) |
+| **UCT Primary Enquiry** | [Primary Inquiry](mailto:ultimatecybertechsol@gmail.com) |
+| **UCT 24/7 Support** | [24/7 Support](mailto:247assist@mail.com) |
+| **UCT Consultancy** | [Consultancy](mailto:247assist@consultant.com) |
+| **UCT F-Service** | [Fast Service](mailto:247assist@fastservice.com) |
 
 >### **Telecommunications**
 
-- **Voice:** [Call Us](href="tel:+13106018952"</a>)
-- **WhatsApp:** [Ultimatecyber-Wizard](https://wa.me/447862126859)
+- **Voice:** [Corporate Hotline](tel:+13106018952)
+- **WhatsApp:** [Secure Messaging](https://wa.me/447862126859)
 
 >---
+
 >## ✨ Features
 
 - **💳 ACH & Wire Processing:** Complete payment processing capabilities compliant with industry standards.
@@ -85,7 +86,7 @@ cd ultimatecyber-wizard
 # Backend dependencies
 composer install
 
-># Frontend dependencies
+# Frontend dependencies
 npm install
 ```
 
@@ -109,15 +110,15 @@ php artisan serve
 >---
 
 >## 📄 License & Copyright
-**Proprietary License**  
 
-Copyright © 2024 **ULTIMATE CYBER-TECH LTD** All Rights Reserved.
+**Proprietary License**  
+Copyright © 2024 **ULTIMATE CYBER-TECH LTD**. All Rights Reserved.
 
 *This software is confidential and intended solely for authorized use. Unauthorized reproduction, distribution, or modification is strictly prohibited.*
 
 >---
 
-<p align="justify">
+<p align="center">
   <strong>ULTIMATE CYBER-TECH LTD</strong><br>
   <em>Innovation | Reliability | Trust</em>
 </p>
