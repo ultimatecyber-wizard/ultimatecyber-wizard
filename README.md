@@ -20,6 +20,7 @@
 - [Features](#-features)
 - [Technical Requirements](#-technical-requirements)
 - [Installation](#-installation)
+- [Support & Contact](#-support--contact)
 - [License](#-license)
 
 ---
@@ -29,24 +30,11 @@
 | **Detail** | **Information** |
 | :--- | :--- |
 | **Company** | ULTIMATE CYBER-TECH LTD |
-| **Headquarters** | 225 S Olive St, Los Angeles, CA 90012, USA |
-| **Repository** | [@ultimatecyber-wizard](https://github.com/ultimatecyber-wizard/ultimatecyber-wizard.git) |
-
-### **Contact Support**
-
-| **Department** | **Contact Method** |
-| :--- | :--- |
-| **Primary Inquiry** | [ultimatecyber-wizard (PI)](mailto:ultimatecybertechsol@gmail.com) |
-| **24/7 Support** | [ultimatecyber-wizard (24/7)](mailto:247assist@mail.com) |
-| **Consultancy** | [ultimatecyber-wizard (CST)](mailto:247assist@consultant.com) |
-| **Fast Service** | [ultimatecyber-wizard (FS)](mailto:247assist@fastservice.com) |
-
-### **Telecommunications**
-
-- [![Call Us](https://img.shields.io/badge/Call%20Us-Contact%20Now-blue?style=for-the-badge)](tel:+13106018952)
-- [![WhatsApp Us](https://img.shields.io/badge/WhatsApp-Contact%20Now-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/447862126859)
+| **Headquarters** | Los Angeles, CA, USA |
+| **Repository** | [@ultimatecyber-wizard](https://github.com/ultimatecyber-wizard) |
 
 ---
+
 ## ✨ Features
 
 - **💳 ACH & Wire Processing:** Complete payment processing capabilities compliant with industry standards.
@@ -59,7 +47,6 @@
 ---
 
 ## 🛠 Technical Requirements
-
 Ensure the following environment dependencies are met prior to installation:
 
 - **PHP:** Version 8.1 or higher
@@ -97,12 +84,38 @@ php artisan key:generate
 ```bash
 php artisan migrate --seed
 ```
+
 ### **5. Launch Server**
 ```bash
 php artisan serve
 ```
 
 > **Note:** Please refer to the internal documentation for detailed configuration regarding payment gateways and security certificates.
+
+---
+
+## 📞 Support & Contact
+
+To ensure security and efficient handling of inquiries, direct email addresses are not listed on this public repository. Please utilize the following official channels:
+- **Technical Support:** Please open a ticket via the **GitHub Issues** tab.
+- **Business Inquiries:** Reach out through our official corporate website.
+- **Emergency Assistance:** Authorized clients may access priority support through the client dashboard.
+
+### **Telecommunications**
+
+<p align="center">
+  <a href="tel:+13106018952">
+    <img src="https://img.shields.io/badge/Call%20Us-Contact%20Now-blue?style=for-the-badge" alt="Call Us">
+  </a>
+  <a href="https://wa.me/447862126859">
+    <img src="https://img.shields.io/badge/WhatsApp-Contact%20Now-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp Us">
+  </a>
+</p>
+
+<p align="center">
+  <strong>Alternative Direct Link:</strong><br>
+  <a href="tel:+13106018952">Contact Us on Phone Call</a>
+</p>
 
 ---
 
