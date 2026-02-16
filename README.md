@@ -48,26 +48,10 @@ Click any email address below to open your default mail client instantly.
 
 ### **Telecommunications**
 
-Click the buttons below to initiate a call or WhatsApp chat immediately.
-<p align="center">
-  <!-- Phone Button -->
-  <a href="tel:+13106018952" style="text-decoration: none; display: inline-block; margin: 5px;">
-    <img src="https://img.shields.io/badge/📞%20Call%20Us-Contact%20Now-blue?style=for-the-badge" alt="Call Us">
-  </a>
-  
-  <!-- WhatsApp Button -->
-  <a href="https://wa.me/447862126859" style="text-decoration: none; display: inline-block; margin: 5px;">
-    <img src="https://img.shields.io/badge/💬%20WhatsApp-Chat%20Now-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp Us">
-  </a>
-</p>
-
-<p align="center">
-  <small>
-    Direct Links: 
-    <a href="tel:+13106018952">Call +1 310 6018 952</a> | 
-    <a href="https://wa.me/447862126859">WhatsApp +44 7862 126859</a>
-  </small>
-</p>
+| **Service** | **Contact Link** |
+| :--- | :--- |
+| **Voice Call** | [ultimatecyber-wizard](tel:+13106018952) |
+| **WhatsApp** | [ultimatecyber-wizard](https://wa.me/447862126859) |
 
 >---
 
@@ -98,7 +82,9 @@ Ensure the following environment dependencies are met prior to installation:
 
 ### **1. Clone Repository**
 ```bash
-git clone https://github.com/ultimatecyber-wizard/ultimatecyber-wizard.gitcd ultimatecyber-wizard
+# Clone repository
+git clone https://github.com/ultimatecyber-wizard/ultimatecyber-wizard.git
+cd ultimatecyber-wizard
 ```
 
 ### **2. Install Dependencies**
