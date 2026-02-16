@@ -1,51 +1,32 @@
-# 🚀 ULTIMATE CYBER-WIZARD
+# 🚀 ULTIMATE CYBER-TECH LTD
 
-![License](https://img.shields.io/badge/License-Proprietary-blue.svg)
-![GitHub](https://img.shields.io/badge/Company-ULTIMATE%20CYBER--TECH%20LTD-red)
-![Version](https://img.shields.io/badge/Version-2.4.0-green)
+**Official Website Repository**  
+*Building the Future, One Commit at a Time.*
 
-**Enterprise Payment Processing & Network Management System**
-
-## 🏢 Corporate Information
-- **Company**: ULTIMATE CYBER-TECH LTD
-- **Address**: 225 S Olive St, Los Angeles, CA 90012
-- **Primary Email**:
-- [Ultimate Cyber-Tech](ultimatecybertechsol@gmail.com)
-- **Support Emails**: 
-  - [Ultimate Cyber-Tech 247assist](247assist@mail.com)
-  - [Ultimate Cyber-Tech Consultant](247assist@consultant.com)
-  - [Ultimate Cyber-Tech Fastservice](247assist@fastservice.com)
-- **Phone Numbers**:
-  - [Call Us At +1 310 0000 000](tel:+13106018952)
-  - [WhatsApp Us At +44](https://wa.me/447862126859)
-- **GitHub**: @ultimatecyber-wizard
-
-## ✨ Features
-- **ACH & Wire Processing**: Complete payment processing
-- **Real-time Dashboard**: Professional analytics
-- **Enterprise Security**: Bank-grade encryption
-- **API Integration**: RESTful API endpoints
-- **Multi-tenant Support**: Business accounts
-- **Docker Deployment**: Production-ready containers
+## 📋 Company Information
+- **Name:** ULTIMATE CYBER-TECH LTD
+- **Address:** 225 S Olive St, Los Angeles, CA 90012
+- **Email:** 
+  - Main: 247assist@mail.com
+  - Consulting: 247assist@consultant.com
+  - Support: 247assist@fastservice.com
+- **Phone:** 
+  - US: +1 310 6018 952
+  - UK: +44 7862 126859
+- **Copyright:** © 2024 Ultimate Cyber-Tech Ltd. All rights reserved.
 
 ## 🚀 Quick Start
 
-### Installation
-```bash
-# Clone repository
-git clone https://github.com/ultimatecyber-wizard/ultimatecyber-wizard.git
-cd ultimatecyber-wizard
+### Option A: Static Website (Recommended)
 
 # Install dependencies
-composer install
 npm install
 
-# Configure environment
-cp .env.example .env
-php artisan key:generate
+# Start development server
+npm run dev
 
-# Run migrations
-php artisan migrate --seed
+# Build for production
+npm run build
 
-# Start server
-php artisan serve
+# Deploy to Netlify
+npm run deploy
