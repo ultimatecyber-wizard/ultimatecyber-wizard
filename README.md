@@ -2,7 +2,7 @@
 
 ![License](https://img.shields.io/badge/License-Proprietary-blue.svg)
 ![Company](https://img.shields.io/badge/Company-ULTIMATE%20CYBER--TECH%20LTD-red)
-![Version](https://img.shields.io/badge/Version-2.4.0-green)
+![Version](https://img.shields.io/badge/Version-2.4.0-green?label=Version)
 
 > **Enterprise Payment Processing & Network Management System**
 
@@ -20,7 +20,6 @@
 - [Features](#-features)
 - [Technical Requirements](#-technical-requirements)
 - [Installation](#-installation)
-- [Support & Contact](#-support--contact)
 - [License](#-license)
 
 ---
@@ -30,14 +29,37 @@
 | **Detail** | **Information** |
 | :--- | :--- |
 | **Company** | ULTIMATE CYBER-TECH LTD |
-| **Headquarters** | Los Angeles, CA, USA |
+| **Headquarters** | 225 S Olive St, Los Angeles, CA 90012, USA |
 | **Repository** | [@ultimatecyber-wizard](https://github.com/ultimatecyber-wizard) |
+
+### **Contact Support**
+
+| **Department** | **Contact Method** |
+| :--- | :--- |
+| **Primary Inquiry** | [ultimatecybertechsol@gmail.com](mailto:ultimatecybertechsol@gmail.com) |
+| **24/7 Support** | [247assist@mail.com](mailto:247assist@mail.com) |
+| **Consultancy** | [247assist@consultant.com](mailto:247assist@consultant.com) |
+| **Fast Service** | [247assist@fastservice.com](mailto:247assist@fastservice.com) |
+
+### **Telecommunications**
+
+<p align="center">
+  <!-- Phone Button -->
+  <a href="tel:+13106018952" style="text-decoration: none; display: inline-block; margin: 5px;">
+    <img src="https://img.shields.io/badge/Call%20Us-Contact%20Now-blue?style=for-the-badge" alt="Call Us">
+  </a>
+  
+  <!-- WhatsApp Button -->
+  <a href="https://wa.me/447862126859" style="text-decoration: none; display: inline-block; margin: 5px;">
+    <img src="https://img.shields.io/badge/WhatsApp-Contact%20Now-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp Us">
+  </a>
+</p>
 
 ---
 
 ## ✨ Features
 
-- **💳 ACH & Wire Processing:** Complete payment processing capabilities compliant with industry standards.
+- **💳 ACH & Wire Processing:** Complete and compliant payment processing capabilities for industry standards.
 - **📊 Real-time Dashboard:** Professional analytics and monitoring interface.
 - **🔒 Enterprise Security:** Bank-grade encryption ensuring data integrity and confidentiality.
 - **🔌 API Integration:** Robust RESTful API endpoints for seamless third-party connectivity.
@@ -47,6 +69,7 @@
 ---
 
 ## 🛠 Technical Requirements
+
 Ensure the following environment dependencies are met prior to installation:
 
 - **PHP:** Version 8.1 or higher
@@ -65,7 +88,8 @@ git clone https://github.com/ultimatecyber-wizard/ultimatecyber-wizard.git
 cd ultimatecyber-wizard
 ```
 
-### **2. Install Dependencies**
+2. Install Dependencies
+
 ```bash
 # Backend dependencies
 composer install
@@ -74,59 +98,35 @@ composer install
 npm install
 ```
 
-### **3. Configure Environment**
+3. Configure Environment
+
 ```bash
 cp .env.example .env
 php artisan key:generate
 ```
 
-### **4. Database Setup**
+4. Database Setup
+
 ```bash
 php artisan migrate --seed
 ```
 
-### **5. Launch Server**
+5. Launch Server
+
 ```bash
 php artisan serve
 ```
 
-> **Note:** Please refer to the internal documentation for detailed configuration regarding payment gateways and security certificates.
+Note: Please refer to the internal documentation for detailed configuration regarding payment gateways and security certificates.
 
 ---
 
-## 📞 Support & Contact
+📄 License & Copyright
 
-To ensure security and efficient handling of inquiries, direct email addresses are not listed on this public repository. Please utilize the following official channels:
-- **Technical Support:** Please open a ticket via the **GitHub Issues** tab.
-- **Business Inquiries:** Reach out through our official corporate website.
-- **Emergency Assistance:** Authorized clients may access priority support through the client dashboard.
+Proprietary License
+Copyright © 2024 ULTIMATE CYBER-TECH LTD. All Rights Reserved.
 
-### **Telecommunications**
-
-<p align="center">
-  <!-- Phone Button -->
-  <a href="tel:+13106018952" style="text-decoration: none; display: inline-block; margin: 5px;">
-    <img src="https://img.shields.io/badge/Call%20Us-Contact%20Now-blue?style=for-the-badge" alt="Call Us">
-  </a>
-  
-  <!-- WhatsApp Button -->
-  <a href="https://wa.me/447862126859" style="text-decoration: none; display: inline-block; margin: 5px;">
-    <img src="https://img.shields.io/badge/WhatsApp-Contact%20Now-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp Us">
-  </a>
-</p>
-
-<p align="center">
-  <small><a href="tel:+13106018952">Contact Us on Phone Call</a></small>
-</p>
-
----
-
-## 📄 License & Copyright
-
-**Proprietary License**  
-Copyright © 2024 **ULTIMATE CYBER-TECH LTD**. All Rights Reserved.
-
-*This software is confidential and intended solely for authorized use. Unauthorized reproduction, distribution, or modification is strictly prohibited.*
+This software is confidential and intended solely for authorized use. Unauthorized reproduction, distribution, or modification is strictly prohibited.
 
 ---
 
@@ -134,3 +134,4 @@ Copyright © 2024 **ULTIMATE CYBER-TECH LTD**. All Rights Reserved.
   <strong>ULTIMATE CYBER-TECH LTD</strong><br>
   <em>Innovation | Reliability | Trust</em>
 </p>
+```
