@@ -43,8 +43,8 @@
 
 ### **Telecommunications**
 
-- **Voice:** <a href="tel:+13106018952" target="_blank" class="btn btn-primary">Contact Us on +1 310 ULTIMATECYBER-WIZARD</a>
-- **WhatsApp:** [Ultimatecyber-Wizard](https://wa.me/447862126859)
+- **Voice:** [![Call Us](https://img.shields.io/badge/Call%20Us-Contact%20Now-blue?style=for-the-badge)](tel:+13106018952)
+- **WhatsApp:** [![WhatsApp Us](https://img.shields.io/badge/WhatsApp-Contact%20Now-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/447862126859)
 
 ---
 ## ✨ Features
