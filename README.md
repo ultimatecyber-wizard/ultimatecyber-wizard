@@ -51,6 +51,6 @@ php artisan migrate --seed
 php artisan serve
 
 
-© 2023–2026 **ULTIMATE CYBER-TECH LTD** — `ULTIMATE_MTECH`  
+© 2023–2026 **ULTIMATE CYBER-TECH LTD**
 Maintained with precision by **Martinez O. Noble**  
 *..!Your Job..!..We Build..!..*
