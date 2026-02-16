@@ -1,6 +1,6 @@
 >---
 
-# 🚀 **ULTIMATE CYBER-WIZARD**
+## 🚀 **ULTIMATE CYBER-WIZARD**
 
 ![License](https://img.shields.io/badge/License-Proprietary-blue.svg)
 ![Company](https://img.shields.io/badge/Company-ULTIMATE%20CYBER--TECH%20LTD-red)
@@ -50,7 +50,7 @@ Click any email address below to open your default mail client instantly.
 
 | **Service** | **Contact Link** |
 | :--- | :--- |
-| **Voice Call** | [+1 310 0000 000](tel:+13106018952) |
+| **Voice Call** | [+13100000000](tel:+13106018952) |
 | **WhatsApp** | [ultimatecyber-wizard](https://wa.me/447862126859) |
 
 >---
