@@ -104,17 +104,19 @@ To ensure security and efficient handling of inquiries, direct email addresses a
 ### **Telecommunications**
 
 <p align="center">
-  <a href="tel:+13106018952">
+  <!-- Phone Button -->
+  <a href="tel:+13106018952" style="text-decoration: none; display: inline-block; margin: 5px;">
     <img src="https://img.shields.io/badge/Call%20Us-Contact%20Now-blue?style=for-the-badge" alt="Call Us">
   </a>
-  <a href="https://wa.me/447862126859">
+  
+  <!-- WhatsApp Button -->
+  <a href="https://wa.me/447862126859" style="text-decoration: none; display: inline-block; margin: 5px;">
     <img src="https://img.shields.io/badge/WhatsApp-Contact%20Now-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp Us">
   </a>
 </p>
 
 <p align="center">
-  <strong>Alternative Direct Link:</strong><br>
-  <a href="tel:+13106018952">Contact Us on Phone Call</a>
+  <small><a href="tel:+13106018952">Contact Us on Phone Call</a></small>
 </p>
 
 ---
