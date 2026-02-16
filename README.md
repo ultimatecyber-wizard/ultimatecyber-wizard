@@ -6,7 +6,7 @@
 ![Company](https://img.shields.io/badge/Company-ULTIMATE%20CYBER--TECH%20LTD-red)
 ![Version](https://img.shields.io/badge/Version-2.4.0-green)
 
-> **Enterprise Payment Processing & Network Management System**
+ **Enterprise Payment Processing & Network Management System**
 
 **ULTIMATE CYBER-WIZARD** is a comprehensive solution designed for secure payment processing and efficient network management. Developed by **ULTIMATE CYBER-TECH LTD**, this system delivers innovation, reliability, and performance aligned with our corporate mission.
 
@@ -45,7 +45,7 @@
 
 >### **Telecommunications**
 
-- **Voice:** [Corporate Hotline](tel:+13106018952)
+- **Voice:** <a href="tel:+13106018952" target="_blank" class="btn btn-primary">Contact Us on Phone Call</a>
 - **WhatsApp:** [Secure Messaging](https://wa.me/447862126859)
 
 >---
