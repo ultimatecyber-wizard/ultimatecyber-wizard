@@ -9,15 +9,14 @@
 ## 🏢 Corporate Information
 - **Company**: ULTIMATE CYBER-TECH LTD
 - **Address**: 225 S Olive St, Los Angeles, CA 90012
-- **Primary Email**:
-- [Ultimate Cyber-Tech](ultimatecybertechsol@gmail.com)
+- **Primary Email**: ultimatecybertechsol@gmail.com
 - **Support Emails**: 
-  - [Ultimate Cyber-Tech 247assist](247assist@mail.com)
-  - [Ultimate Cyber-Tech Consultant](247assist@consultant.com)
-  - [Ultimate Cyber-Tech Fastservice](247assist@fastservice.com)
+  - 247assist@mail.com
+  - 247assist@consultant.com
+  - 247assist@fastservice.com
 - **Phone Numbers**:
-  - [Call Us At +1](tel:+13106018952)
-  - [WhatsApp Us At +44](https://wa.me/447862126859)
+  - +1 310 6018 952 (USA)
+  - +44 7862 126859 (UK)
 - **GitHub**: @ultimatecyber-wizard
 
 ## ✨ Features
