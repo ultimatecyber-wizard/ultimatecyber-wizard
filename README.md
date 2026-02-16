@@ -43,8 +43,8 @@
 
 ### **Telecommunications**
 
-- **Voice:** [![Call Us](https://img.shields.io/badge/Call%20Us-Contact%20Now-blue?style=for-the-badge)](tel:+13106018952)
-- **WhatsApp:** [![WhatsApp Us](https://img.shields.io/badge/WhatsApp-Contact%20Now-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/447862126859)
+- [![Call Us](https://img.shields.io/badge/Call%20Us-Contact%20Now-blue?style=for-the-badge)](tel:+13106018952)
+- [![WhatsApp Us](https://img.shields.io/badge/WhatsApp-Contact%20Now-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/447862126859)
 
 ---
 ## ✨ Features
