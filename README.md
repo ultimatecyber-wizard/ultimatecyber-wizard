@@ -50,8 +50,8 @@ Click any email address below to open your default mail client instantly.
 
 | **Service** | **Contact Link** |
 | :--- | :--- |
-| **Voice Call** | [+1 310 0000 000](tel:+13106018952) |
-| **WhatsApp** | [ultimatecyber-wizard](https://wa.me/447862126859) |
+| **Voice Call** | [+13100000000](tel:+13106018952) |
+| **WhatsApp** | [Message Ultimate C-Tech Ltd Co. on WhatsApp.](https://wa.me/447862126859) |
 
 >---
 
