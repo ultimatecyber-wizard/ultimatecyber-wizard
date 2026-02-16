@@ -30,7 +30,7 @@
 | :--- | :--- |
 | **Company** | ULTIMATE CYBER-TECH LTD |
 | **Headquarters** | 225 S Olive St, Los Angeles, CA 90012, USA |
-| **Repository** | [@ultimatecyber-wizard](https://github.com/ultimatecyber-wizard) |
+| **Repository** | [@ultimatecyber-wizard](https://github.com/ultimatecyber-wizard/ultimatecyber-wizard.git) |
 
 ### **Contact Support**
 
@@ -43,8 +43,8 @@
 
 ### **Telecommunications**
 
-- **Voice:** [@Ultimate Cyber-Tech](tel:+13106018952)
-- **WhatsApp:** [@Ultimate Cyber-Tech](https://wa.me/447862126859)
+- **Voice:** [@ +131ULT CYBER-WIZARD](tel:+13106018952)
+- **WhatsApp:** [@ULT CYBER-WIZARD](https://wa.me/447862126859)
 
 ---
 ## ✨ Features
