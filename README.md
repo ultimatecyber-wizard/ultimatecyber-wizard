@@ -43,7 +43,7 @@
 
 ### **Telecommunications**
 
-- **Voice:** <a href="tel:+13106018952" target="_blank" class="btn btn-primary">Contact Us on Phone Call</a>
+- **Voice:** <a href="tel:+13106018952" target="_blank" class="btn btn-primary">Contact Us on +1 310 ULTIMATECYBER-WIZARD</a>
 - **WhatsApp:** [Ultimatecyber-Wizard](https://wa.me/447862126859)
 
 ---
