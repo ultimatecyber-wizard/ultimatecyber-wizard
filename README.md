@@ -116,7 +116,7 @@ For strategic, compliance, or partnership inquiries:
 
 - **Name**: Martinez O. Noble  
 - **Role**: Lead Maintainer, ULTIMATE CYBER-TECH LTD  
-- **Email**: [247assist@mail.com](mailto:247assist@mail.com)  
+- **Email**: [247assist@mail.com](247assist@mail.com)  
 - **Phone**: [+1 310 601 8952](tel:+13106018952)  
 - **Address**: 225 S Olive St, Los Angeles, CA 90012  
 
